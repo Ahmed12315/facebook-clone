@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(223, 227, 238)
+}
+.left{
+    float: left;
+    /* margin: 250px; */
+    padding-top: 150px;
+    padding-bottom:150px ;
+    padding-left:270px ;
+    padding-right:0px ;
+}
+.right{
+    float: right;
+    /* margin: 250px */
+    /* padding: 200px 150px; */
+    /* padding: 200px 200px 0px 0px ; */
+    padding-top: 150px;
+    padding-bottom:150px ;
+    padding-left:0px ;
+    padding-right:270px ;
+    text-align: center;
+}
+h1{
+    color: rgba(15, 88, 177, 0.96);
+    font-size: 80px;
+    font-family: kalvika;
+    margin:0px;
+    padding: 0px;
+}
+fieldset{
+    border-radius: 15px;
+    background-color: white;
+    height: 290px;
+}
+input{
+    height:40px;
+    /* border-radius: px; */
+    width: 290px;
+}
+.black{
+    font-weight: 700;
+    color: black;
+    
+
+}
+button{
+    width: 290px;
+    border-radius: 5px;
+    height: 40px;
+    background-color:  rgba(15, 88, 177, 0.96);
+}
+.btn{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(59, 231, 59);
+
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.blue{
+    color:rgba(15, 88, 177, 0.96) ;
+}
+@font-face {
+    font-family:kalvika ;
+    src: url(./fonts/klavika-bold.otf);
+}
+.p{
+    font-size: larger;
+    
+}
+span:hover{
+    text-decoration: underline;
+}
+.blue:hover{
+    text-decoration: underline;
+}
+button:hover{
+    cursor: pointer;
+}
